@@ -8,16 +8,16 @@ blog:
     name:                                                # 博客名称
     description:                                         # 博客描述
     title:                                               # 网页标题
-    url:zhengwangeng.github.io                                                 # 博客地址
+    url: http/://zhengwangeng.github.io                                                 # 博客地址
     duoshuo:                                             # 多说ID
     tongji:                                              # 百度统计ID
     qiniu:                                               # 七牛云地址
 author:
-    name:郑万耕                                                # 作者名称
-    email:zwg4219@163.com                                               # 邮箱地址
+    name: 郑万耕                                                # 作者名称
+    email: zwg4219@163.com                                               # 邮箱地址
     weibo:                                               # 微博地址
-    github:github.com/zhengwangeng                                              # GitHub地址
-    logo:https://avatars0.githubusercontent.com/u/8774936?v=3&s=460                                                # logo地址
+    github: https/://github.com/zhengwangeng                                              # GitHub地址
+    logo: https/://avatars0.githubusercontent.com/u/8774936?v=3&s=460                                                # logo地址
     douban:
         name:                                            # 豆瓣地址名称
         key:                                             # 豆瓣API Key
