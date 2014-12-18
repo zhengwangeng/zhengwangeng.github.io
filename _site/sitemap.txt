@@ -1,10 +1,11 @@
 
-http/://zhengwangeng.github.io/page/timing.html
-http/://zhengwangeng.github.io/sitemap.txt
-http/://zhengwangeng.github.io/page/read.html
-http/://zhengwangeng.github.io/index.html
-http/://zhengwangeng.github.io/page/feed.xml
-http/://zhengwangeng.github.io/page/category.html
-http/://zhengwangeng.github.io/page/about.html
-http/://zhengwangeng.github.io/404.html
+//page/timing.html
+//sitemap.txt
+//page/read.html
+//index.html
+//page/feed.xml
+//page/category.html
+//page/about.html
+//404.html
 
+//blog/2014/12/18/Hello-World.html
