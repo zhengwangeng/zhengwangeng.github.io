@@ -17,7 +17,7 @@ author:
     email: zwg4219@163.com                                               # 邮箱地址
     weibo:                                               # 微博地址
     github: https/://github.com/zhengwangeng                                              # GitHub地址
-    logo: https/://avatars0.githubusercontent.com/u/8774936?v=3&s=460                                                # logo地址
+    logo: ../res/img/logo.jpeg                                                # logo地址
     douban:
         name:                                            # 豆瓣地址名称
         key:                                             # 豆瓣API Key

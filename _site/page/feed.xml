@@ -3,11 +3,11 @@
   <channel>
     <title>RSS - </title>
     <description> - </description>
-    <link></link>
-    <atom:link href="/page/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Dec 2014 18:58:29 +0800</pubDate>
-    <lastBuildDate>Wed, 17 Dec 2014 18:58:29 +0800</lastBuildDate>
-    <generator></generator>
+    <link>http/://zhengwangeng.github.io</link>
+    <atom:link href="http/://zhengwangeng.github.io/page/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 17 Dec 2014 22:26:31 +0800</pubDate>
+    <lastBuildDate>Wed, 17 Dec 2014 22:26:31 +0800</lastBuildDate>
+    <generator>郑万耕</generator>
     
   </channel>
 </rss>
