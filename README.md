@@ -1,6 +1,6 @@
 # 码志
 
-我的个人博客：<http://mazhuang.org>，欢迎 Star 和 Fork。
+我的个人博客：<http://zhengwangeng.github.io>，欢迎 Star 和 Fork。
 
 ## 概览
 
@@ -15,7 +15,7 @@
 
 ## 效果预览
 
-**[在线预览 &rarr;](http://mazhuang.org)**
+**[在线预览 &rarr;](http://zhengwangeng.github.io)**
 
 ![screenshot home](http://mazhuang.org/assets/images/screenshots/home.png)
 
@@ -71,6 +71,8 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 * 可以学习一下那些高质量的博主，他们的行文，内容组织方式，有什么值得借鉴的地方。
 
 ## 致谢
+
+本博客Fork于 [mzlogin](http://mzlogin.github.io) 修改，感谢！
 
 本博客外观基于 [DONGChuan](http://dongchuan.github.io) 修改，感谢！
 
