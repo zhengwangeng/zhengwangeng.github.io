@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://zhengwangeng.github.io
+url: https://zhengwangeng.github.io
 date_format: "ordinal"
 title: 感悟爱与幸福
 subtitle: "没有一颗心会因为追求梦想而受伤"
@@ -19,6 +19,7 @@ side_bar_repo_limit: 5
 author: zhengwangeng
 organization: Mecare, Inc.
 organization_url: http://www.mecare.me
+github_username: zhengwangeng
 location: Shanghai, China
 email: zwg4219@163.com
 
@@ -33,6 +34,10 @@ navs:
   -
     href: /categories/
     label: 分类
+
+#   -
+#     href: /archives/
+#     label: 归档
 
   -
     href: /wiki/
@@ -58,7 +63,7 @@ markdown: kramdown
 kramdown:
     input: GFM
 highlighter: rouge
-paginate: 8
+paginate: 10
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
@@ -80,36 +85,42 @@ collections:
 repository: zhengwangeng/zhengwangeng.github.io
 
 # ---------------- #
-#      Socials     #
-# ---------------- #
-github_username: zhengwangeng
-#douban_username: zhengwangeng
-#facebook_username: zhengwangeng
-#weibo_username: zhengwangeng
-#zhihu_username: zhengwangeng
-#twitter_username: zhengwangeng
-
-# ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, duoshuo
-comments_provider: disqus
-# !!!重要!!! 请修改下面两个用户名为你自己申请的
-# !!!Important!!! Please modify usernames below to yours
-duoshuo_username: mazhuang
-disqus_username: mzlogin
-# 在使用 disqus 的时候可点击显示多说评论框
-lazy_load_duoshuo: true
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: 
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: zhengwangeng
+    repo: blog-comments
+    oauth:
+        client_id: 85e32aed77fba606d011
+        client_secret: c293453cbd489f802e280c97a1ba257f0549e373
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: zhengwangeng
+    repo: blog-comments
+    clientID: 85e32aed77fba606d011
+    clientSecret: c293453cbd489f802e280c97a1ba257f0549e373
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
 
 # ---------------- #
 #    Analytics     #
 # ---------------- #
 google:
     analytics_id: UA-80669434-1
-
-# ---------------- #
-#      Datas       #
-# ---------------- #
-skill_software_keywords: [Java, DB, Design Patterns]
-skill_mobile_app_keywords: [Android, Reverse Engineering]
-skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]

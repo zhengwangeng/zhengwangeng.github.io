@@ -4,6 +4,10 @@ title: Markdown
 categories: Markdown
 description: Markdown 常用语法示例。
 keywords: Markdown
+mermaid: true
+sequence: true
+flow: true
+mathjax: true
 ---
 
 **目录**
@@ -14,14 +18,14 @@ keywords: Markdown
 ### 超链接
 
 ```
-[靠谱-ing](http://mazhuang.org)
+[靠谱-ing](https://mazhuang.org)
 
-<http://mazhuang.org>
+<https://mazhuang.org>
 ```
 
-[靠谱-ing](http://mazhuang.org)  
+[靠谱-ing](https://mazhuang.org)  
 
-<http://mazhuang.org>
+<https://mazhuang.org>
 
 ### 列表
 
@@ -52,6 +56,11 @@ keywords: Markdown
 * 无序列表项 2
 
 * 无序列表项 3
+
+```
+- [x] 任务列表 1
+- [ ] 任务列表 2
+```
 
 - [x] 任务列表 1
 - [ ] 任务列表 2
@@ -140,5 +149,44 @@ print 'Hello, World!'
 ### Footnotes
 
 This is a text with footnote[^1].
+
+### mermaid
+
+<div class="mermaid">
+sequenceDiagram
+    Alice-->>John: Hello John, how are you?
+    John-->>Alice: Great!
+</div>
+
+### sequence
+
+```sequence
+Andrew->China: Says Hello
+Note right of China: China thinks\nabout it
+China-->Andrew: How are you?
+Andrew->>China: I am good thanks!
+```
+
+### flowchart
+
+```flow
+st=>start: Start
+e=>end
+op1=>operation: My Operation
+sub1=>subroutine: My Subroutine
+cond=>condition: Yes
+or No?
+io=>inputoutput: catch something...
+
+st->op1->cond
+cond(yes)->io->e
+cond(no)->sub1(right)->op1
+```
+
+### mathjax
+
+When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 [^1]: Here is the footnote 1 definition.
